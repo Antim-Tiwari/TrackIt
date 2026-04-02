@@ -67,8 +67,7 @@ function Dashboard() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white px-4 sm:px-6 md:px-8 py-6">
-      
-      {/* Header */}
+
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-3xl">Dashboard</h1>
 
