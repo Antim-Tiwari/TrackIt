@@ -11,7 +11,7 @@ connectDB();
 
 const app = express();
 
-app.use(cors({ origin: "*", credentials: true}));
+app.use(cors({ origin: "https://track-it-18xo.vercel.app/", credentials: true}));
 app.use(express.json());
 
 app.get("/", (req, res) => {
